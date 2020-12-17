@@ -38,8 +38,9 @@
         }
         h1,
         h2,
-        p {
-            text-align: center;
+        p,
+        .center-btn {
+            text-align: center !important;
         }
         footer {
             padding: 50px 20px 50px 20px !important;
