@@ -36,6 +36,14 @@
         .red-bg {
             background-color: hsl(13, 100%, 96%);
         }
+        h1,
+        h2,
+        p {
+            text-align: center;
+        }
+        footer {
+            padding: 50px 20px 50px 20px !important;
+        }
     }
     
     .card-body {
@@ -57,7 +65,8 @@
         margin-bottom: 0;
     }
     
-    .jumbotron .btn {
+    .jumbotron .btn,
+    footer .btn {
         color: hsl(12, 88%, 59%);
         background-color: white;
         box-shadow: none;
@@ -81,8 +90,16 @@
         text-decoration: none;
     }
     
+    .footer-link-list a:hover {
+        color: hsl(12, 88%, 59%) !important;
+    }
+    
     .footer-icon {
         margin-left: 10px;
+    }
+    
+    .copyright {
+        margin-top: 20px;
     }
     
     @media (max-width: 768px) {
