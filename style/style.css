@@ -1,9 +1,7 @@
     body {
         font-family: 'Be Vietnam', sans-serif;
-        /*background-image: url(../images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
-    background-position: 110% 30%;
-    background-size: 40%; */
+        background-image: url(../images/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
     }
     
     .red-button {
@@ -132,4 +130,40 @@
     .carousel-inner .carousel-item-right,
     .carousel-inner .carousel-item-left {
         transform: translateX(0);
+    }
+    /* Background Design */
+    
+    @media only screen and (max-width: 768px) {
+        body {
+            background-position: -30% -5%;
+            background-size: 130%;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        body {
+            background-position: 110% -2%;
+            background-size: 55%;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        body {
+            background-position: 110% -5%;
+            background-size: 50%;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        body {
+            background-position: 110% -10%;
+            background-size: 50%;
+        }
+    }
+    
+    @media only screen and (min-width: 1500px) {
+        body {
+            background-position: 110% -20%;
+            background-size: 50%;
+        }
     }
